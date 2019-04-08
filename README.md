@@ -2,8 +2,8 @@
 Voice-activated assistant using Raspberry Pi + DialogFlow + Amazon Polly
 
 ## Setup:
-1. Add your AWS credentials to `~/.aws/credentials`
-2. Add your Google Service Account JSON file to `~/.google/service_account.json`
+1. Add your AWS credentials to `~/.aws/credentials` (for using Amazon Polly)
+2. Add your Google Service Account JSON file to `~/.google/service_account.json` (for DialogFlow + Cloud Speech API)
 3. Start client with `node app.js` or `npm start`
 
 ## What about `vaha-server`?
